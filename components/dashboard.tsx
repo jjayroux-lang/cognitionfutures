@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { Brain, Users, FileText, Calendar, Plus, Search, Bell, User } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import KanbanBoard from '@/components/kanban-board'
+import SimpleKanban from '@/components/simple-kanban'
 import { mockBoards, mockUsers } from '@/lib/mock-data'
 
 export default function Dashboard() {
@@ -164,7 +164,7 @@ export default function Dashboard() {
 
         {/* Kanban Board */}
         <div className="bg-white rounded-xl border shadow-sm p-6">
-          <KanbanBoard board={activeBoard} />
+          <SimpleKanban board={activeBoard} />
         </div>
 
         {/* Team Section */}
