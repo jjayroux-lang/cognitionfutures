@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { Brain, Users, FileText, Calendar, Plus, Search, Bell, User } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/ui/simple-button'
 import SimpleKanban from '@/components/simple-kanban'
 import { mockBoards, mockUsers } from '@/lib/mock-data'
 
