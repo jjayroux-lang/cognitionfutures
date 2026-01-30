@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { Board, Column, Card } from '@/lib/mock-data'
 import { Plus } from 'lucide-react'
-import { Button } from './ui/simple-button'
+import { Button } from './ui/button'
 
 interface SimpleKanbanProps {
   board: Board
